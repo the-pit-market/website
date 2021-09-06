@@ -3,5 +3,7 @@
   "jsxSingleQuote": false,
   "arrowParens": "always",
   "singleQuote": true,
-  "semi": true
+  "semi": true,
+  "quoteProps": "as-needed",
+  "trailingComma": "none"
 }

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind variants;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Urbanist:ital@0;1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+p {
+  font-family: 'Urbanist', sans-serif;
+}
