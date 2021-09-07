@@ -1,10 +1,9 @@
-import { IconType } from '@react-icons/all-files/lib';
+import { Icon } from '@app/utils/commonTypes';
 import Link from 'next/link';
 
-export interface DashboardSidebarCardProps {
+export interface DashboardSidebarCardProps extends Icon {
   name: string;
   href: string;
-  Icon: IconType;
   isActive?: boolean;
 }
 
