@@ -12,8 +12,6 @@ module.exports = {
       colors
     }
   },
-  variants: {
-    extend: {}
-  },
+  variants: {},
   plugins: []
 };
