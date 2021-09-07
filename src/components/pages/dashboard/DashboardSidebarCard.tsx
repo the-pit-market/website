@@ -19,7 +19,7 @@ export function DashboardSidebarCard({
         isActive ? 'border-blue-500' : 'border-transparent'
       }`}
     >
-      <div className="mx-4 text-xl">
+      <div className="ml-6 mr-4 text-xl">
         <Icon className={isActive ? 'text-blue-500' : ''} />
       </div>
       <Link href={href}>
