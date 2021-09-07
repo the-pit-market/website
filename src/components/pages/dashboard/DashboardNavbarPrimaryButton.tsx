@@ -2,6 +2,7 @@ import { Icon } from '@app/utils/commonTypes';
 import { useState } from 'react';
 import Link from 'next/link';
 
+
 export interface DashboardNavbarPrimaryButtonProps extends Icon {
   name: string;
   gradientTwColors: string[];
